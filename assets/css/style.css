@@ -1,0 +1,27 @@
+/* Adding a background image and adding a flex property that will allow the footer to always be pushed to the bottom of the page  */
+/* body {
+  background-image: url("../images/lined2.png");
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  z-index: 1;
+}; */
+
+/* Adding a margin to the dynamic buttons to space them out */
+.header-box {
+  padding: 5px;
+  background-color: darkslategray;
+  color: white;
+  font-weight: 900;
+  z-index: 2;
+};
+
+.white-bg {
+  background-color: white;
+  z-index: 2;
+};
+
+/* Adding a flex property for the sticky footer */
+main {
+  flex: 1 0 auto;
+};
